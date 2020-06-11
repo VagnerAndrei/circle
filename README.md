@@ -12,6 +12,8 @@ Círculo de Esporte Radicais
 	</div>
 
 ## This project was created from the archetype "wildfly-jakartaee-webapp-archetype".
+## - JAX-RS
+## - SPA
 
 ### Steps to installation:
 
