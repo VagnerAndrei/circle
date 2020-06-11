@@ -4,7 +4,7 @@ Círculo de Esporte Radicais
 		<h2>Sobre</h2>
 		<p>Circle é um Sistema Web para agrupamento de atletas de esportes
 		radicais e realização das práticas. Fornecendo para o atleta
-		a possibilidade de catalogar sua experiÃªncia com o esporte tanto
+		a possibilidade de catalogar sua experiência com o esporte tanto
 		individualmente quanto em grupo, além de detalhar a categoria
 		esportiva e possuir um meio de registro dos locais de prática Também
 		possui um sistema de melhor manobra e gerencia de eventos,
