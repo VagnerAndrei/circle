@@ -1,2 +1,2 @@
-# crosta
-Crosta - Esporte Radicais - Círculo Desenvolvimentos
+# Circle
+Circle - Círculo de Esporte Radicais
