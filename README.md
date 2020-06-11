@@ -16,8 +16,9 @@ Círculo de Esporte Radicais
 #### SPA
 
 ### Steps to installation:
+#### Project:
 <strong>Run</strong>: "mvn install"
-<br/>
+<br/><br/>
 #### Database:
 Download and install PostgreSQL.<p>
 Create a database 'circle' with user and password 'postgres'<p>
