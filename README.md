@@ -17,7 +17,7 @@ Círculo de Esporte Radicais
 
 ### Steps to installation:
 <strong>Run</strong>: "mvn install"
-<br/><br/>
+<br/>
 #### Database:
 Download and install PostgreSQL.<p>
 Create a database 'circle' with user and password 'postgres'<p>
