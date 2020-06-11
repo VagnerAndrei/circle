@@ -1,0 +1,1 @@
+mvn  wildfly:undeploy wildfly:deploy

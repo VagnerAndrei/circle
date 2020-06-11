@@ -1,0 +1,10 @@
+CREATE TABLE perfil(
+	descricao VARCHAR(5) PRIMARY KEY
+);
+
+ALTER TABLE usuario	ADD COLUMN perfil VARCHAR(5) NOT NULL REFERENCES perfil(descricao);
+
+ALTER TABLE pessoa ALTER COLUMN usuario_email TYPE VARCHAR(100);
+
+INSERT INTO perfil VALUES('ADMIN');
+INSERT INTO perfil VALUES('USER');

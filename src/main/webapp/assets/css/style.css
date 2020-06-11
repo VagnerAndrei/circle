@@ -1,0 +1,214 @@
+
+@font-face {
+	font-family: titulos;
+	src: url('../font/Flamenco-Regular.ttf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+header div {
+	min-width: 275px;
+	margin: 3px 3px 0;
+	display: flex;
+	align-items:flex-end;
+	flex-direction: column;
+	justify-content: space-between;
+	display: flex;
+	
+}
+
+header div div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+
+header img +div{
+	align-items:flex-start;
+	justify-content: flex-end;
+}
+
+button {
+	background-color: #330033;
+	width: 133px;
+	height: 30px;
+	color: #FFFFFF;
+	border-radius: 7px;
+	cursor: pointer;
+	font-family: titulos;
+	font-size: 18px;
+}
+
+main {
+	display: flex;
+	width: 100%;
+	max-width: 766px;
+	justify-content: center;
+	margin: 26px auto auto auto;
+	position: relative;
+	font-family: titulos;
+}
+
+footer {
+	align-content: center;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	height: 33px;
+	bottom: 0px;
+	font-family: titulos;
+	font-size: 33px;
+	margin-bottom: 5px;
+}
+
+input[type=checkbox]:checked{
+	color: #660066
+}
+
+h1 {
+	color: #330033;
+}
+
+form {
+	display: block;
+	padding-top: 20px;
+	width: 366px;
+}
+
+form input {
+	width: 100%;
+	min-width: 233px;
+	margin: 3px 5px 20px 0;
+	height: 33px;
+	color: #660066;
+	font-size: 19px;
+	font-family: titulos;
+}
+
+.conta {
+	position: absolute;
+	top: 56px;
+}
+
+.conta small+small {
+	color: #0000FF;
+	cursor: pointer;
+}
+
+form font {
+	font-size: 16px;
+	margin-left: 1px;
+}
+
+form div {
+	padding: 0 7px 0 3px;
+}
+
+form button {
+	width: 100%;
+	height: 36px;
+	border-radius: 4px;
+}
+
+.form-group {
+	display: block;
+}
+
+::placeholder {
+	color: #d0d5d7;
+	padding-left: 5px;
+	font-size: 19px;
+	font-family: titulos;
+}
+
+.border-container {
+	position: relative;
+	border: solid;
+	border-width: 2px;
+	padding: 4px 4px 0 4px;
+	border-color: #660066;
+	border-radius: 3px;
+	
+}
+
+.sobre {
+	text-align: center;
+	max-width: 433px;
+	font-family: titulos;
+	line-height: 1.5;
+}
+
+.border-container img {
+	width: 100%;
+	height: 100%;
+}
+
+footer a {
+	cursor: pointer;
+}
+
+.padding-top {
+	padding-top: 100px;
+}
+
+.margin-top {
+	margin-top: 50px;
+}
+
+.loading {
+	position: absolute;
+	right: 48%;
+	padding-top: 5px;
+	height: 33px;
+	width: 33px;
+	display: none;
+}
+
+.display-block {
+	display: inline-block;
+}
+
+.display-none {
+	display: none;
+}
+
+.nome-usuario{
+	max-width: 266px;
+	font-family: titulos;
+	font-size: 12ox;
+}
+
+.checkbox-inline input[type="checkbox"] {
+	height: 24px;
+	position: absolute;
+	top: -6px;
+	margin-left: -130px;
+}
+
+.checkbox-inline {
+	position: relative;
+	top: -5px;
+	vertical-align: middle;
+	display: inline-block;
+	font-weight: normal;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.mensagem-erro {
+	color: #FF0000;
+}
+
