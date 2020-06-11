@@ -29,5 +29,3 @@ Download and start a Wildfly 19 Application Server
 <br/>
 To undeploy:<p>
 <strong>Run</strong>: "mvn wildfly:undepoy"
-<br/><br/>
-Is Ready: Enjoy!
