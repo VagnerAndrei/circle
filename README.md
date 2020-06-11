@@ -12,8 +12,8 @@ Círculo de Esporte Radicais
 	</div>
 
 ## This project was created from the archetype "wildfly-jakartaee-webapp-archetype".
-## JAX-RS
-## SPA
+### JAX-RS
+### SPA
 
 ### Steps to installation:
 
@@ -21,14 +21,15 @@ Círculo de Esporte Radicais
 Download and install PostgreSQL.<p>
 Create a database 'circle' with user and password 'postgres'
 <br/>
-##### <strong>Run</strong>: "mvn flyway:migrate"
+<strong>Run</strong>: "mvn flyway:migrate"
 <br/>
 	
 #### Application Server:
 Download and start a Wildfly 19 Application Server
 <br/>
-##### <strong>Run</strong>: "mvn wildfly:execute-commands"<p>
-#####  <strong>Run</strong>: "mvn wildfly:deploy"<p>
+<strong>Run</strong>: "mvn wildfly:execute-commands"<p>
+<strong>Run</strong>: "mvn wildfly:deploy"<p>
 <br/>
 To undeploy:<p>
-##### <strong>Run</strong>: "mvn wildfly:undepoy"
+	
+<strong>Run</strong>: "mvn wildfly:undepoy"
